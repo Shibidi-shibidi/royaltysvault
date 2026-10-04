@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "combat",
+  "cookingtime": 1000,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "royaltysvault:bile_bucket"
+  },
+  "result": "royaltysvault:varyngicsilt"
+}

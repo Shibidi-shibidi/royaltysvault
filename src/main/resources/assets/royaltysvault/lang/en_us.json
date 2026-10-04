@@ -1,0 +1,15 @@
+{
+  "item.royaltysvault.varyngicsteel": "Varyngian Steel Ingot",
+  "item.royaltysvault.oblivion": "Oblivion",
+  "item.royaltysvault.herald_spawn_egg": "Herald Spawn Egg",
+  "item.royaltysvault.bile_bucket": "Bile of Varys",
+  "item.royaltysvault.varyngicsilt": "Fragmented Varyngic Steel",
+  "tooltip.royaltysvault.oblivion.tooltip.line1": "Blade of the Chosen. End of the Cycle.",
+  "tooltip.royaltysvault.oblivion.tooltip.line2": "The Oblivion will rend through the festering carcass of the dead gods.",
+
+
+
+
+  "itemgroup.varyngic": "Varyngian Items",
+  "entity.royaltysvault.herald": "Herald Of Varys"
+}
