@@ -1,0 +1,42 @@
+{
+  "criteria": {
+    "Royalty's Vault": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "royaltysvault:varyngicsteel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/block/gilded_blackstone.png",
+    "description": {
+      "translate": "advancements.royaltysvault.varyngicsteel.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "royaltysvault:varyngicsteel",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.royaltysvault.varyngicsteel.title"
+    }
+  },
+  "requirements": [
+    [
+      "Royalty's Vault"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  },
+  "sends_telemetry_event": true
+}

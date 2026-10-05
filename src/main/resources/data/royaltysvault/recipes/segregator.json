@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " V ",
+    "VSV",
+    " V "
+  ],
+  "key":  {
+    "V": {
+      "item": "minecraft:redstone"
+    },
+    "S": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "royaltysvault:darkplasticsegregator"
+  }
+}

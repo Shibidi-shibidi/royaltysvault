@@ -17,7 +17,7 @@ import java.util.List;
 
 public class Oblivion extends SwordItem {
     public Oblivion() {
-        super(ModToolMaterial.VARYNGIAN, 13, -1f, new Settings());
+        super(ModToolMaterial.VARYNGIAN, 3, -2f, new Settings());
     }
 
     @Override

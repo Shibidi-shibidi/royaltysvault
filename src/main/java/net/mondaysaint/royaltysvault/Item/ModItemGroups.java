@@ -22,6 +22,12 @@ public class ModItemGroups {
                         entries.add(ModItems.HERALD_SPAWN_EGG);
                         entries.add(ModFluids.BILE_BUCKET);
                         entries.add(ModItems.VARYNGICSILT);
+                        entries.add(ModItems.VARYNGICBOOTS);
+                        entries.add(ModItems.VARYNGICCHESTPLATE);
+                        entries.add(ModItems.VARYNGICHELM);
+                        entries.add(ModItems.VARYNGICLEGGINGS);
+                        entries.add(ModItems.DARKPLASTICSEGREGATOR);
+
 
                     }).build());
     public static void registerItemGroups() {

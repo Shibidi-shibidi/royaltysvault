@@ -1,15 +1,26 @@
 {
-  "item.royaltysvault.varyngicsteel": "Varyngian Steel Ingot",
+  "item.royaltysvault.varyngicsteel": "Varyngic Steel Ingot",
   "item.royaltysvault.oblivion": "Oblivion",
+  "item.royaltysvault.darkplasticsegregator": "Dark Plastic Segregator",
+  "item.royaltysvault.varyngichelm": "Varyngic Steel Helm",
+  "item.royaltysvault.varyngicchestplate": "Varyngic Steel Cuirass",
+  "item.royaltysvault.varyngicleggings": "Varyngic Steel Leggings",
+  "item.royaltysvault.varyngicboots": "Varyngic Steel Sabatons",
   "item.royaltysvault.herald_spawn_egg": "Herald Spawn Egg",
   "item.royaltysvault.bile_bucket": "Bile of Varys",
   "item.royaltysvault.varyngicsilt": "Fragmented Varyngic Steel",
+  "effect.royaltysvault.chosen": "Chosen of Varys",
+
+
+  "advancements.royaltysvault.varyngicsteel.description": "Welcome to Royalty's Vault",
+  "advancements.royaltysvault.varyngicsteel.title": "Royalty's Vault",
+
   "tooltip.royaltysvault.oblivion.tooltip.line1": "Blade of the Chosen. End of the Cycle.",
   "tooltip.royaltysvault.oblivion.tooltip.line2": "The Oblivion will rend through the festering carcass of the dead gods.",
 
 
 
 
-  "itemgroup.varyngic": "Varyngian Items",
+  "itemgroup.varyngic": "Varyngic Items",
   "entity.royaltysvault.herald": "Herald Of Varys"
 }

@@ -14,7 +14,7 @@ public class ModEntities  {
     public static final EntityType<HeraldEntity> HERALD = Registry.register(
             Registries.ENTITY_TYPE, new Identifier(RoyaltySVault.MOD_ID, "herald"),
             FabricEntityTypeBuilder.create(SpawnGroup.MONSTER, HeraldEntity::new).dimensions(EntityDimensions.fixed(
-                    3.1f, 2f
+                    5f, 5f
             )).build()
     );
 }

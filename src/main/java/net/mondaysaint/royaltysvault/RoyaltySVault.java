@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.minecraft.util.Identifier;
 
+import net.mondaysaint.royaltysvault.Effect.ModEffects;
 import net.mondaysaint.royaltysvault.Entity.Custom.HeraldEntity;
 import net.mondaysaint.royaltysvault.Entity.ModEntities;
 import net.mondaysaint.royaltysvault.Item.ModItemGroups;
@@ -31,6 +32,7 @@ public class RoyaltySVault implements ModInitializer {
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
 		ModFluids.register();
+		ModEffects.registerEffects();
 
 		FabricDefaultAttributeRegistry.register(ModEntities.HERALD, HeraldEntity.setAttributes());
 	}

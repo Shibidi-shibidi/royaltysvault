@@ -2,17 +2,17 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
+    "W": {
       "item": "royaltysvault:varyngicsilt"
     }
   },
   "pattern": [
-    "###",
-    "###",
-    "###"
+    "WWW",
+    "WWW",
+    "WWW"
   ],
   "result": {
-    "item": "minecraft:varyngicsteel"
+    "item": "royaltysvault:varyngicsteel"
   },
   "show_notification": true
 }
