@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " V ",
+    " S ",
+    "   "
+  ],
+  "key":  {
+    "V": {
+      "item": "royaltysvault:varyngiansteel"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "royaltysvault:varyngianstaff"
+  }
+}

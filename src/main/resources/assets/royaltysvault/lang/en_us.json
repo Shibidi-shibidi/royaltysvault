@@ -9,15 +9,31 @@
   "item.royaltysvault.herald_spawn_egg": "Herald Spawn Egg",
   "item.royaltysvault.bile_bucket": "Bile of Varys",
   "item.royaltysvault.varyngicsilt": "Fragmented Varyngic Steel",
+  "item.royaltysvault.ferula": "Ferula",
+  "item.royaltysvault.princessscepter": "Scepter of the Varyngic Princess",
+  "item.royaltysvault.varyngianstaff": "Varyngic Staff",
+
+
+
   "effect.royaltysvault.chosen": "Chosen of Varys",
 
 
   "advancements.royaltysvault.varyngicsteel.description": "Welcome to Royalty's Vault",
   "advancements.royaltysvault.varyngicsteel.title": "Royalty's Vault",
 
-  "tooltip.royaltysvault.oblivion.tooltip.line1": "Blade of the Chosen. End of the Cycle.",
-  "tooltip.royaltysvault.oblivion.tooltip.line2": "The Oblivion will rend through the festering carcass of the dead gods.",
 
+  "tooltip.royaltysvault.oblivion.tooltip.line1": "Blade of the Chosen. End of the Cycle.",
+  "tooltip.royaltysvault.stick.tooltip.line1": "Akin to a worthless stick tipped with Varyngic Steel. Cheap and Effective.",
+
+  "tooltip.royaltysvault.princessscepter.tooltip.line1": "Scepter of a long-dead Varyngic Princess",
+  "tooltip.royaltysvault.armour.tooltip.line1": "Armor crafted from only the finest Varyngic Steel",
+  "tooltip.royaltysvault.armour.tooltip.line2": "Legend tells that the one that collects the full set will be blessed by Varys",
+
+
+
+  "tooltip.royaltysvault.oblivion.tooltip.line2": "The Oblivion will rend through the festering carcass of the dead gods.",
+  "tooltip.royaltysvault.bilebucket.tooltip.line1": "Bile extracted from the 13-formed One's pancreas",
+  "tooltip.royaltysvault.segregator.tooltip.line1": "Horrific creation of Varys, caller of his putrid Heralds.",
 
 
 

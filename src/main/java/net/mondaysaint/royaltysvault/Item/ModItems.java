@@ -13,14 +13,20 @@ import net.mondaysaint.royaltysvault.fluid.BileFluid;
 
 public class ModItems {
     public static final Item VARYNGICSTEEL = registerItem("varyngicsteel", new Item(new FabricItemSettings()));
-    public static final Item VARYNGICSILT = registerItem("varyngicsilt", new Item(new FabricItemSettings()));
-    public static final Item DARKPLASTICSEGREGATOR = registerItem("darkplasticsegregator", new Item(new FabricItemSettings()));
+    public static final Item VARYNGICSILT = registerItem("varyngicsilt", new Item(new FabricItemSettings().food(new FoodComponent.Builder().build())));
+            ;
+    public static final Item DARKPLASTICSEGREGATOR = registerItem("darkplasticsegregator", new DarkPlasticSegregator(new FabricItemSettings()));
 
     public static final Item OBLIVION = registerItem("oblivion", new Oblivion());
-    public static final Item VARYNGICBOOTS = registerItem("varyngicboots", new ArmorItem(ModArmorMaterials.VARYNGIC, ArmorItem.Type.BOOTS, new FabricItemSettings()));
-    public static final Item VARYNGICHELM = registerItem("varyngichelm", new ArmorItem(ModArmorMaterials.VARYNGIC, ArmorItem.Type.HELMET, new FabricItemSettings()));
-    public static final Item VARYNGICCHESTPLATE = registerItem("varyngicchestplate", new ArmorItem(ModArmorMaterials.VARYNGIC, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
-    public static final Item VARYNGICLEGGINGS = registerItem("varyngicleggings", new ArmorItem(ModArmorMaterials.VARYNGIC, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item VARYNGIANSTAFF = registerItem("varyngianstaff", new VaryngianStaff());
+
+    public static final Item FERULA = registerItem("ferula", new BowItem(new FabricItemSettings()));
+    public static final Item PRINCESSSCEPTER = registerItem("princessscepter", new Princessscepter());
+
+    public static final Item VARYNGICBOOTS = registerItem("varyngicboots", new ModArmorItem(ModArmorMaterials.VARYNGIC, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+    public static final Item VARYNGICHELM = registerItem("varyngichelm", new ModArmorItem(ModArmorMaterials.VARYNGIC, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item VARYNGICCHESTPLATE = registerItem("varyngicchestplate", new ModArmorItem(ModArmorMaterials.VARYNGIC, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item VARYNGICLEGGINGS = registerItem("varyngicleggings", new ModArmorItem(ModArmorMaterials.VARYNGIC, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
 
     public static final Item HERALD_SPAWN_EGG = registerItem("herald_spawn_egg",
             new SpawnEggItem(ModEntities.HERALD, 0xFFFFFF, 0xFFFFFF, new FabricItemSettings()));

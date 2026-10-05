@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "royaltysvault:bile",
-    "tutorialmod:flowing_bile"
+    "royaltysvault:still_bile",
+    "royaltysvault:flowing_bile"
   ]
 }

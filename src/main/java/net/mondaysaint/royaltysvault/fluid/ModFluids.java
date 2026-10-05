@@ -13,6 +13,7 @@ import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.mondaysaint.royaltysvault.Item.BileBucketItem;
 import net.mondaysaint.royaltysvault.Item.ModItemGroups;
 import net.mondaysaint.royaltysvault.RoyaltySVault;
 
@@ -31,6 +32,6 @@ public class ModFluids {
         BILE_BLOCk = Registry.register(Registries.BLOCK, new Identifier(RoyaltySVault.MOD_ID, "bile_block"),
                 new FluidBlock(ModFluids.STILL_BILE, FabricBlockSettings.copyOf(Blocks.WATER)){ });
         BILE_BUCKET = Registry.register(Registries.ITEM, new Identifier(RoyaltySVault.MOD_ID, "bile_bucket"),
-                new BucketItem(ModFluids.STILL_BILE, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
+                new BileBucketItem(ModFluids.STILL_BILE, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
     }
 }

@@ -25,8 +25,12 @@ public class ModItemGroups {
                         entries.add(ModItems.VARYNGICBOOTS);
                         entries.add(ModItems.VARYNGICCHESTPLATE);
                         entries.add(ModItems.VARYNGICHELM);
+                        entries.add(ModItems.VARYNGIANSTAFF);
+
                         entries.add(ModItems.VARYNGICLEGGINGS);
                         entries.add(ModItems.DARKPLASTICSEGREGATOR);
+                        entries.add(ModItems.FERULA);
+                        entries.add(ModItems.PRINCESSSCEPTER);
 
 
                     }).build());

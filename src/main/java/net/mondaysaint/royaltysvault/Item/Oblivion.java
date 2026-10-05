@@ -17,7 +17,7 @@ import java.util.List;
 
 public class Oblivion extends SwordItem {
     public Oblivion() {
-        super(ModToolMaterial.VARYNGIAN, 3, -2f, new Settings());
+        super(ModToolMaterial.VARYNGIAN, 3, -4f, new Settings());
     }
 
     @Override
@@ -29,7 +29,6 @@ public class Oblivion extends SwordItem {
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
         tooltip.add(Text.translatable("tooltip.royaltysvault.oblivion.tooltip.line1"));
-        tooltip.add(Text.translatable("tooltip.royaltysvault.oblivion.tooltip.line2"));
 
         super.appendTooltip(stack, world, tooltip, context);
     }

@@ -16,13 +16,20 @@ public class ModEffects {
                     20.0D,
                     EntityAttributeModifier.Operation.ADDITION
             )
+            .addAttributeModifier(
+                    EntityAttributes.GENERIC_MOVEMENT_SPEED,
+                    "4f9d8630-3b4e-47ff-99ef-87b61f8a846c",
+                    -4.0D,
+                    EntityAttributeModifier.Operation.ADDITION
+            )
 
             .addAttributeModifier(
                     EntityAttributes.GENERIC_ATTACK_DAMAGE,
-                    "4f9d8630-3b4e-47ff-99ef-87b61f8a846c",
-                    4.0D,
+                    "4f9d8630-3b4e-48ff-99ef-87b61f8a846c",
+                    -4.0D,
                     EntityAttributeModifier.Operation.ADDITION
             );
+
 
     public static void registerEffects() {
         Registry.register(Registries.STATUS_EFFECT, new Identifier("royaltysvault", "chosen"), CHOSEN_EFFECT);
