@@ -29,6 +29,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.FERULA, Models.HANDHELD);
         itemModelGenerator.register(ModItems.VARYNGIANSTAFF, Models.HANDHELD);
 
+
         itemModelGenerator.register(ModItems.PRINCESSSCEPTER, Models.HANDHELD);
 
 

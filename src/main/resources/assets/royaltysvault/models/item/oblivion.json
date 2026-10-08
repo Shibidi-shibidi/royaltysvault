@@ -1,35 +1,44 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-
-    "layer0": "royaltysvault:item/oblivion"
+    "layer0": "royaltysvault:item/lesscooloblivion"
   },
-
+  "overrides": [
+    {
+      "predicate": { "royaltysvault:owner": 1 },
+      "model": "royaltysvault:item/cooleroblivion"
+    }
+  ],
   "display": {
     "thirdperson_righthand": {
-      "rotation": [0, -90, 45],
-      "translation": [2, 6, -4],
-      "scale": [3, 3, 3]
+      "rotation": [ 0, -90, 55 ],
+      "translation": [ 0, 5.5, 0.5 ],
+      "scale": [ 3.0, 3.0, 3.0 ]
     },
     "thirdperson_lefthand": {
-      "rotation": [0, 90, -45],
-      "translation": [0, 6, -4],
-      "scale": [3, 3, 3]
+      "rotation": [ 0, 90, -55 ],
+      "translation": [ 0, 5.5, 0.5 ],
+      "scale": [ 2.0, 2.0, 2.0 ]
     },
     "firstperson_righthand": {
-      "rotation": [0, -90, 25],
-      "translation": [2.5, 5, -6],
-      "scale": [2, 2, 2]
+      "rotation": [ 0, -90, 25 ],
+      "translation": [ 1.13, 3.2, 1.13 ],
+      "scale": [ 1.5, 1.5, 1.5 ]
     },
     "firstperson_lefthand": {
-      "rotation": [0, 90, -25],
-      "translation": [2.5, 5, -6],
-      "scale": [2, 2, 2]
+      "rotation": [ 0, 90, -25 ],
+      "translation": [ -1.13, 3.2, 1.13 ],
+      "scale": [ 1.5, 1.5, 1.5 ]
     },
     "ground": {
-      "translation": [0, 2, 0],
-      "scale": [1.2, 1.2, 1.2]
+      "rotation": [ 0, 0, 0 ],
+      "translation": [ 0, 2.0, 0 ],
+      "scale": [ 1.2, 1.2, 1.2 ]
     },
     "gui": {
-      "scale": [1, 1, 1]
-    }}}
+      "rotation": [ 0, 0, 0 ],
+      "translation": [ 0, 0, 0 ],
+      "scale": [ 1.0, 1.0, 1.0 ]
+    }
+  }
+}

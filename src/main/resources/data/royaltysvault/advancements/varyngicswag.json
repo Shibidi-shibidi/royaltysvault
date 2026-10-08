@@ -1,0 +1,57 @@
+{
+  "parent": "royaltysvault:royaltysvault",
+  "criteria": {
+    "pale_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "royaltysvault:varyngichelm"
+            ]
+          },
+          {
+            "items": [
+              "royaltysvault:varyngicchestplate"
+            ]
+          },
+          {
+            "items": [
+              "royaltysvault:varyngicleggings"
+            ]
+          },
+          {
+            "items": [
+              "masks-n-glory:varyngicboots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.royaltysvault.armorset.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "royaltysvault:darkplasticsegregator",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.royaltysvault.armorset.title"
+    }
+  },
+  "requirements": [
+    [
+      "armorset"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

@@ -20,7 +20,7 @@
       "translate": "advancements.royaltysvault.varyngicsteel.description"
     },
     "frame": "challenge",
-    "hidden": false,
+    "hidden": true,
     "icon": {
       "item": "royaltysvault:varyngicsteel",
       "nbt": "{Damage:0}"

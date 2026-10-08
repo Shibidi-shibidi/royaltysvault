@@ -9,6 +9,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.mondaysaint.royaltysvault.RoyaltySVault;
+import net.mondaysaint.royaltysvault.block.ModBlocks;
 import net.mondaysaint.royaltysvault.fluid.ModFluids;
 
 public class ModItemGroups {
@@ -26,6 +27,7 @@ public class ModItemGroups {
                         entries.add(ModItems.VARYNGICCHESTPLATE);
                         entries.add(ModItems.VARYNGICHELM);
                         entries.add(ModItems.VARYNGIANSTAFF);
+                        entries.add(ModBlocks.RunicImbuer);
 
                         entries.add(ModItems.VARYNGICLEGGINGS);
                         entries.add(ModItems.DARKPLASTICSEGREGATOR);
