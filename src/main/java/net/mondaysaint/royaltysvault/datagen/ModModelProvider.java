@@ -9,6 +9,7 @@ import net.minecraft.item.ArmorItem;
 import net.minecraft.item.BowItem;
 import net.minecraft.item.Item;
 import net.mondaysaint.royaltysvault.Item.ModItems;
+import net.mondaysaint.royaltysvault.block.ModBlocks;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -17,6 +18,7 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
+        blockStateModelGenerator.registerSimpleState(ModBlocks.RunicImbuer);
 
     }
 
@@ -28,6 +30,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.VARYNGICLEGGINGS));
         itemModelGenerator.register(ModItems.FERULA, Models.HANDHELD);
         itemModelGenerator.register(ModItems.VARYNGIANSTAFF, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.VARYNGICHALBERD, Models.HANDHELD);
+
 
 
         itemModelGenerator.register(ModItems.PRINCESSSCEPTER, Models.HANDHELD);

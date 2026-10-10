@@ -11,7 +11,9 @@ import net.mondaysaint.royaltysvault.Entity.ModEntities;
 import net.mondaysaint.royaltysvault.Item.ModItemGroups;
 import net.mondaysaint.royaltysvault.Item.ModItems;
 import net.mondaysaint.royaltysvault.block.ModBlocks;
+import net.mondaysaint.royaltysvault.block.entity.ModBlockEntities;
 import net.mondaysaint.royaltysvault.fluid.ModFluids;
+import net.mondaysaint.royaltysvault.screen.ModScreenHandlers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -36,6 +38,8 @@ public class RoyaltySVault implements ModInitializer {
 		ModFluids.register();
 		ModEffects.registerEffects();
 		ModBlocks.registerModBlocks();
+		ModBlockEntities.registerBlockEntities();
+		ModScreenHandlers.registerScreenHandlers();
 
 		FabricDefaultAttributeRegistry.register(ModEntities.HERALD, HeraldEntity.setAttributes());
 	}

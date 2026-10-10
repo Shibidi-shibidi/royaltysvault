@@ -8,7 +8,7 @@ import net.minecraft.util.Hand;
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
-    VARYNGIAN(MiningLevels.HAND, 10000, 2, 6, 1, () -> Ingredient.ofItems(ModItems.VARYNGICSTEEL));
+    VARYNGIAN(MiningLevels.HAND, 10000, 9, 6, 1, () -> Ingredient.ofItems(ModItems.VARYNGICSTEEL));
     private final int miningLevel;
     private final int itemDurability;
     private final int miningSpeed;

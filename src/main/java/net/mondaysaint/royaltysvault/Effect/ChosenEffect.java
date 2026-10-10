@@ -6,7 +6,7 @@ import net.minecraft.entity.effect.StatusEffectCategory;
 
 public class ChosenEffect extends StatusEffect {
     public ChosenEffect() {
-        super(StatusEffectCategory.BENEFICIAL, 0xff004f);
+        super(StatusEffectCategory.BENEFICIAL, 0xFFD700);
     }
     @Override
     public boolean canApplyUpdateEffect(int duration, int amplifier) {

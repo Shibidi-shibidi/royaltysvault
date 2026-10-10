@@ -19,6 +19,8 @@ public class ModItems {
 
     public static final Item OBLIVION = registerItem("oblivion", new Oblivion());
     public static final Item VARYNGIANSTAFF = registerItem("varyngianstaff", new VaryngianStaff());
+    public static final Item VARYNGICHALBERD = registerItem("varyngichalberd", new VaryngicHalberd());
+
 
     public static final Item FERULA = registerItem("ferula", new BowItem(new FabricItemSettings()));
     public static final Item PRINCESSSCEPTER = registerItem("princessscepter", new Princessscepter());

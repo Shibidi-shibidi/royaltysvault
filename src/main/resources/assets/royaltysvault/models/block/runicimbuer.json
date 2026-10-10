@@ -3,9 +3,10 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"2": "runicimbuer",
-		"particle": "block/base"
+		"2": "royaltysvault:block/runicimbuer",
+		"particle": "royaltysvault:block/runicimbuer"
 	},
+
 	"elements": [
 		{
 			"from": [0, 0, 0],

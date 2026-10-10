@@ -1,6 +1,6 @@
 {
   "item.royaltysvault.varyngicsteel": "Varyngic Steel Ingot",
-  "item.royaltysvault.oblivion": "Oblivion",
+  "item.royaltysvault.oblivion": "Varyngic Scythe",
   "item.royaltysvault.darkplasticsegregator": "Dark Plastic Segregator",
   "item.royaltysvault.varyngichelm": "Varyngic Steel Helm",
   "item.royaltysvault.varyngicchestplate": "Varyngic Steel Cuirass",
@@ -12,6 +12,10 @@
   "item.royaltysvault.ferula": "Ferula",
   "item.royaltysvault.princessscepter": "Scepter of the Varyngic Princess",
   "item.royaltysvault.varyngianstaff": "Varyngic Staff",
+  "item.royaltysvault.varyngichalberd": "Varyngic Halberd",
+
+  "block.royaltysvault.runicimbuer": "Runic Infuser",
+
 
 
 
@@ -23,6 +27,8 @@
 
 
   "tooltip.royaltysvault.oblivion.tooltip.line1": "Blade of the Chosen. End of the Cycle.",
+  "tooltip.royaltysvault.halberd.tooltip.line1": "Maxillia of one of Varys' beaks, attached to a Varyngic handle.",
+
   "tooltip.royaltysvault.stick.tooltip.line1": "Akin to a worthless stick tipped with Varyngic Steel. Cheap and Effective.",
 
   "tooltip.royaltysvault.princessscepter.tooltip.line1": "Scepter of a long-dead Varyngic Princess",

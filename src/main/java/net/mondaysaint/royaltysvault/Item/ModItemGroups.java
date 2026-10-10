@@ -28,6 +28,7 @@ public class ModItemGroups {
                         entries.add(ModItems.VARYNGICHELM);
                         entries.add(ModItems.VARYNGIANSTAFF);
                         entries.add(ModBlocks.RunicImbuer);
+                        entries.add(ModItems.VARYNGICHALBERD);
 
                         entries.add(ModItems.VARYNGICLEGGINGS);
                         entries.add(ModItems.DARKPLASTICSEGREGATOR);

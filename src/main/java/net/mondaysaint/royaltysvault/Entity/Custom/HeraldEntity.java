@@ -40,6 +40,9 @@ public class HeraldEntity extends AnimalEntity implements GeoEntity {
             ModItems.VARYNGICCHESTPLATE,
             ModItems.VARYNGICHELM,
             ModItems.VARYNGICBOOTS,
+            ModItems.VARYNGICHALBERD,
+            ModItems.PRINCESSSCEPTER,
+
             ModItems.VARYNGICLEGGINGS
     );
 

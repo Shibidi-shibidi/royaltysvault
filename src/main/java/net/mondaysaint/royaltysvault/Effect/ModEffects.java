@@ -8,6 +8,10 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModEffects {
+
+    public static final StatusEffect CURSED_EFFECT = new CursedEffect();
+
+
     public static final StatusEffect CHOSEN_EFFECT = new ChosenEffect()
 
             .addAttributeModifier(
@@ -29,6 +33,7 @@ public class ModEffects {
                     -4.0D,
                     EntityAttributeModifier.Operation.ADDITION
             );
+
 
 
     public static void registerEffects() {
