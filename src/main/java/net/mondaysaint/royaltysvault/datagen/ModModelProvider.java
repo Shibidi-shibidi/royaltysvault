@@ -30,6 +30,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.VARYNGICLEGGINGS));
         itemModelGenerator.register(ModItems.FERULA, Models.HANDHELD);
         itemModelGenerator.register(ModItems.VARYNGIANSTAFF, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.EYEOFVARYS, Models.HANDHELD);
+
         itemModelGenerator.register(ModItems.VARYNGICHALBERD, Models.HANDHELD);
 
 

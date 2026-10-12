@@ -13,35 +13,28 @@
   "item.royaltysvault.princessscepter": "Scepter of the Varyngic Princess",
   "item.royaltysvault.varyngianstaff": "Varyngic Staff",
   "item.royaltysvault.varyngichalberd": "Varyngic Halberd",
+  "item.royaltysvault.eyeofvarys": "Eye of Varys",
 
   "block.royaltysvault.runicimbuer": "Runic Infuser",
 
-
-
-
   "effect.royaltysvault.chosen": "Chosen of Varys",
-
+  "effect.royaltysvault.cursed": "Heretical",
 
   "advancements.royaltysvault.varyngicsteel.description": "Welcome to Royalty's Vault",
   "advancements.royaltysvault.varyngicsteel.title": "Royalty's Vault",
 
-
   "tooltip.royaltysvault.oblivion.tooltip.line1": "Blade of the Chosen. End of the Cycle.",
-  "tooltip.royaltysvault.halberd.tooltip.line1": "Maxillia of one of Varys' beaks, attached to a Varyngic handle.",
+  "tooltip.royaltysvault.oblivion.tooltip.line2": "Holds within it an eye of Varys themself.",
+  "tooltip.royaltysvault.oblivion.tooltip.line3": "The Oblivion will rend through the festering carcass of the dead gods.",
 
+  "tooltip.royaltysvault.halberd.tooltip.line1": "Holy maxilla of Varys, attached to a Varyngic handle.",
   "tooltip.royaltysvault.stick.tooltip.line1": "Akin to a worthless stick tipped with Varyngic Steel. Cheap and Effective.",
-
   "tooltip.royaltysvault.princessscepter.tooltip.line1": "Scepter of a long-dead Varyngic Princess",
   "tooltip.royaltysvault.armour.tooltip.line1": "Armor crafted from only the finest Varyngic Steel",
   "tooltip.royaltysvault.armour.tooltip.line2": "Legend tells that the one that collects the full set will be blessed by Varys",
 
-
-
-  "tooltip.royaltysvault.oblivion.tooltip.line2": "The Oblivion will rend through the festering carcass of the dead gods.",
   "tooltip.royaltysvault.bilebucket.tooltip.line1": "Bile extracted from the 13-formed One's pancreas",
   "tooltip.royaltysvault.segregator.tooltip.line1": "Horrific creation of Varys, caller of his putrid Heralds.",
-
-
 
   "itemgroup.varyngic": "Varyngic Items",
   "entity.royaltysvault.herald": "Herald Of Varys"

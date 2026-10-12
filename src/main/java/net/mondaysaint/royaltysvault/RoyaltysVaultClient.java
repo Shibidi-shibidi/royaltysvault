@@ -2,17 +2,21 @@ package net.mondaysaint.royaltysvault;
 
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
+import net.fabricmc.fabric.api.client.particle.v1.ParticleFactoryRegistry;
 import net.fabricmc.fabric.api.client.render.fluid.v1.FluidRenderHandlerRegistry;
 import net.fabricmc.fabric.api.client.render.fluid.v1.SimpleFluidRenderHandler;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.minecraft.client.gui.screen.ingame.HandledScreens;
 import net.minecraft.client.item.ModelPredicateProviderRegistry;
+import net.minecraft.client.particle.EndRodParticle;
 import net.minecraft.client.render.RenderLayer;
+import net.minecraft.client.render.entity.FlyingItemEntityRenderer;
 import net.minecraft.util.Identifier;
 import net.mondaysaint.royaltysvault.Entity.ModEntities;
 import net.mondaysaint.royaltysvault.Entity.client.HeraldRenderer;
 import net.mondaysaint.royaltysvault.Item.ModItems;
 import net.mondaysaint.royaltysvault.fluid.ModFluids;
+import net.mondaysaint.royaltysvault.particles.ModParticles;
 import net.mondaysaint.royaltysvault.screen.ModScreenHandlers;
 import net.mondaysaint.royaltysvault.screen.RuneImbuingScreen;
 
@@ -26,6 +30,13 @@ public class RoyaltysVaultClient implements ClientModInitializer {
         ModelPredicateProviderRegistry.register(ModItems.OBLIVION, new Identifier("royaltysvault", "owner"),
                 (stack, world, entity, seed) -> entity != null && owner.equals(entity.getUuid()) ? 1.0f : 0.0f);
         EntityRendererRegistry.register(ModEntities.HERALD, HeraldRenderer::new);
+        EntityRendererRegistry.register(ModEntities.EYE, FlyingItemEntityRenderer::new);
+
+        ParticleFactoryRegistry.getInstance().register(
+                ModParticles.KRAKEN_PARTICLE,
+                EndRodParticle.Factory::new
+        );
+
         HandledScreens.register(ModScreenHandlers.RUNE_IMBUING_SCREEN_HANDLER, RuneImbuingScreen::new);
         FluidRenderHandlerRegistry.INSTANCE.register(
                 ModFluids.STILL_BILE,

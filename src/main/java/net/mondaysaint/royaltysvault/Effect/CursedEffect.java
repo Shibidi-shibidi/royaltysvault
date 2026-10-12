@@ -11,7 +11,7 @@ import net.mondaysaint.royaltysvault.Entity.Custom.HeraldEntity;
 
 public class CursedEffect extends StatusEffect {
     public CursedEffect() {
-        super(StatusEffectCategory.BENEFICIAL, 0xff004f);
+        super(StatusEffectCategory.HARMFUL, 0xff004f);
     }
     @Override
     public boolean canApplyUpdateEffect(int duration, int amplifier) {
@@ -32,7 +32,7 @@ public class CursedEffect extends StatusEffect {
         }
 
         if (!entity.getWorld().isClient() && entity.getHealth() < entity.getMaxHealth()) {
-            entity.damage(entity.getDamageSources().magic(), 1F);
+            entity.damage(entity.getDamageSources().magic(), 5F);
         }
         super.applyUpdateEffect(entity, amplifier);
     }

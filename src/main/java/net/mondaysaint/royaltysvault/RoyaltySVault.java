@@ -13,6 +13,8 @@ import net.mondaysaint.royaltysvault.Item.ModItems;
 import net.mondaysaint.royaltysvault.block.ModBlocks;
 import net.mondaysaint.royaltysvault.block.entity.ModBlockEntities;
 import net.mondaysaint.royaltysvault.fluid.ModFluids;
+import net.mondaysaint.royaltysvault.particles.ModParticles;
+import net.mondaysaint.royaltysvault.recipes.ModRecipes;
 import net.mondaysaint.royaltysvault.screen.ModScreenHandlers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -40,6 +42,8 @@ public class RoyaltySVault implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModBlockEntities.registerBlockEntities();
 		ModScreenHandlers.registerScreenHandlers();
+		ModParticles.registerParticles();
+		ModRecipes.registerRecipes();
 
 		FabricDefaultAttributeRegistry.register(ModEntities.HERALD, HeraldEntity.setAttributes());
 	}

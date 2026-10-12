@@ -39,6 +39,9 @@ public class Oblivion extends SwordItem {
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
         tooltip.add(Text.translatable("tooltip.royaltysvault.oblivion.tooltip.line1")
                 .formatted(Formatting.GOLD));
+        tooltip.add(Text.translatable("tooltip.royaltysvault.oblivion.tooltip.line2")
+                .formatted(Formatting.GOLD));
+
 
         super.appendTooltip(stack, world, tooltip, context);
     }

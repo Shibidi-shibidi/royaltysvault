@@ -3,10 +3,12 @@ package net.mondaysaint.royaltysvault.Item;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.mondaysaint.royaltysvault.Effect.ModEffects;
 import net.mondaysaint.royaltysvault.Entity.ModEntities;
 import net.mondaysaint.royaltysvault.RoyaltySVault;
 import net.mondaysaint.royaltysvault.fluid.BileFluid;
@@ -32,6 +34,10 @@ public class ModItems {
 
     public static final Item HERALD_SPAWN_EGG = registerItem("herald_spawn_egg",
             new SpawnEggItem(ModEntities.HERALD, 0xFFFFFF, 0xFFFFFF, new FabricItemSettings()));
+
+    // corpse of Varys
+    public static final Item EYEOFVARYS = registerItem("eyeofvarys", new EyeItem(new FabricItemSettings().food(new FoodComponent.Builder().statusEffect(new StatusEffectInstance(ModEffects.CURSED_EFFECT), 1.0f).alwaysEdible().saturationModifier(10f)
+            .hunger(10).build())));
 
 
 

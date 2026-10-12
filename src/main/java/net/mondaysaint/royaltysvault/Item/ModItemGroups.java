@@ -35,6 +35,8 @@ public class ModItemGroups {
                         entries.add(ModItems.FERULA);
                         entries.add(ModItems.PRINCESSSCEPTER);
 
+                        entries.add(ModItems.EYEOFVARYS);
+
 
                     }).build());
     public static void registerItemGroups() {
