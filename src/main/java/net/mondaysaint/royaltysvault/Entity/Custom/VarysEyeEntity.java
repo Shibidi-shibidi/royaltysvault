@@ -70,7 +70,7 @@ public class VarysEyeEntity extends ThrownItemEntity {
             );
 
             for (LivingEntity target : targets) {
-                target.damage(this.getWorld().getDamageSources().explosion(this, this.getOwner()), 400.0f);
+                target.damage(this.getWorld().getDamageSources().explosion(this, this.getOwner()), 30.0f);
                 double dx = target.getX() - x;
                 double dz = target.getZ() - z;
                 double dist = Math.max(0.1, Math.sqrt(dx * dx + dz * dz));

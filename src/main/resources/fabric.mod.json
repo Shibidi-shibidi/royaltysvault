@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "royaltysvault",
-	"version": "${version}",
+	"version": "1.1",
 	"name": "Royalty's Vault",
 	"description": "Created for the ForeverMore SMP, this mod adds in various alcoholic beverages, the Herald of Varys, and various other artefacts from the time of the Varyngian Imperium.",
 	"authors": [

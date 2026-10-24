@@ -22,7 +22,7 @@ public class ModEffects {
                     .addAttributeModifier(
                             EntityAttributes.GENERIC_MAX_HEALTH,
                             "c5e3d749-2b81-4b1a-8cfa-51a89bb613ef",
-                            20.0D,
+                            10.0D,
                             EntityAttributeModifier.Operation.ADDITION
                     )
                     .addAttributeModifier(
